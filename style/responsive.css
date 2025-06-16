@@ -1,0 +1,106 @@
+/* laptop devices */
+@media screen and (max-width: 1200px) {
+    .hero-content h1 {
+        font-size: 48px;
+    }
+
+    .cdmg {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .cards {
+        padding: 60px 30px 60px 30px;
+    }
+
+    .cards img {
+        width: 60px;
+    }
+
+    .wall-img {
+        width: auto;
+        /* object-fit: cover; */
+    }
+
+    .asian-country h4 {
+        padding: 24px;
+        font-size: 24px;
+    }
+}
+
+/* tablet devices */
+@media screen and (max-width: 1024px) {
+    #hero {
+        /* flex-direction: column; */
+        flex-direction: column-reverse;
+    }
+
+    .hero-content {
+        width: 80%;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    #services-card {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .cards {
+        max-width: 100%;
+    }
+
+    .cdmg {
+        margin: 20px 0px;
+    }
+
+    .wall-china {
+        flex-direction: column;
+    }
+
+    .wall-img {
+        width: 100%;
+        /* object-fit: cover; */
+        padding-bottom: 12px;
+    }
+
+    .wall-content {
+        width: 100%;
+    }
+
+
+}
+
+/* mobile devices uplto 425px */
+@media screen and (max-width: 640px) {
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .heading h1 {
+        font-size: 32px;
+    }
+
+    .asian-country {
+        flex-direction: column;
+    }
+
+    .asian-country h4 {
+        width: 70%;
+        text-align: center;
+    }
+
+    .active-button {
+        padding: 12px 20px;
+    }
+
+    .inactive-button {
+        padding: 12px 20px;
+    }
+
+
+
+}
