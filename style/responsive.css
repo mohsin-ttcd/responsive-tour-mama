@@ -71,6 +71,13 @@
         width: 100%;
     }
 
+    .reviews-content h4 {
+        padding-bottom: 18px;
+        background-position: bottom;
+        background-size: 120px;
+        margin-bottom: 2px;
+    }
+
 
 }
 
