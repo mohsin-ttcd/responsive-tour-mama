@@ -91,6 +91,10 @@
         font-size: 32px;
     }
 
+    .wall-content img {
+        width: 70px;
+    }
+
     .asian-country {
         flex-direction: column;
     }
@@ -108,6 +112,10 @@
         padding: 12px 20px;
     }
 
+    .footer-img img {
+        width: 20px;
+        margin-left: 10px;
+    }
 
 
 }
